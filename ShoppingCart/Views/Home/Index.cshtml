@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* CSS designs */
+        .welcome-text {
+            font-family: 'Rowdies', sans-serif; /* Apply the Rowdies font */
+            font-size: 36px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4 text-dark welcome-text">Welcome to the E-Singular Store</h1>
+        <p style="font-weight: bold; color: black;">
+            This is a place where the greatest employees shop!
+        </p>
+        <p>
+            This store has everything to keep you going! Shop high-spec gadgets, fresh fruits, and custom office t-shirts with printing options!
+        </p>
+        <!-- Click here to start shopping link -->
+        <p>
+            <a href="http://localhost:3000/products" class="btn btn-primary">Click here to start shopping</a>
+        </p>
+    </div>
+
+    <div class="text-center">
+        <img src="~/media/products/singular picture.jpeg" alt="Bottom Image" class="img-fluid" style="animation: rotateImage 6s linear infinite;" />
+    </div>
+</body>
+</html>
